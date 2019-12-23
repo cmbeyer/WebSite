@@ -60,7 +60,7 @@ session_start();
 
 
     <div>
-        <a class="logo" href="myaccount.php">
+        <a class="logo" href="http://startific.com">
         </a>
     </div>
     <div class="settings"></div>
@@ -84,7 +84,7 @@ session_start();
 
 
             <li>
-                <a href="http://startific.com">
+                <a href="myaccount.php">
                     <i class="fa fa-envelope-o fa-lg"></i>
                     <span class="nav-text">Contact</span>
                 </a>
