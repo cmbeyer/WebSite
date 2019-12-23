@@ -14,16 +14,8 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" href="images/logolion.png" type="image/gif" sizes="64x64">
-    <link href="https://vjs.zencdn.net/7.1.0/video-js.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
     <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-    <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
-
-
-
-
-
-
 
     <style>
         button {
@@ -68,7 +60,7 @@ session_start();
 
 
     <div>
-        <a class="logo" href="http://startific.com">
+        <a class="logo" href="myaccount.php">
         </a>
     </div>
     <div class="settings"></div>
@@ -77,7 +69,7 @@ session_start();
         <ul>
 
             <li>
-                <a href="http://startific.com">
+                <a href="index.php">
                     <i class="fa fa-home fa-lg"></i>
                     <span class="nav-text">Home</span>
                 </a>
