@@ -90,9 +90,6 @@ session_start();
                 </a>
             </li>
 
-
-
-
             <li>
                 <a href="http://startific.com">
                     <i class="fa fa-heart-o fa-lg"></i>
