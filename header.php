@@ -82,7 +82,7 @@ session_start();
 
 
             <li>
-                <a href="install-astra.php">
+                <a href="folderchk.php">
                     <i class="fa fa-envelope-o fa-lg"></i>
                     <span class="nav-text">Contact</span>
                 </a>
