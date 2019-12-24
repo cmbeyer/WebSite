@@ -84,7 +84,7 @@ session_start();
 
 
             <li>
-                <a href="myaccount.php">
+                <a href="install-astra.php">
                     <i class="fa fa-envelope-o fa-lg"></i>
                     <span class="nav-text">Contact</span>
                 </a>
