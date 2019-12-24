@@ -65,9 +65,7 @@ session_start();
     </div>
     <div class="settings"></div>
     <div class="scrollbar" id="style-1">
-
         <ul>
-
             <li>
                 <a href="index.php">
                     <i class="fa fa-home fa-lg"></i>
