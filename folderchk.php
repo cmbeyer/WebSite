@@ -12,4 +12,6 @@ $contents = ftp_mlsd($conn_id, ".");
 // output $contents
 var_dump($contents);
 
+echo ' Here ';
+
 ?>
