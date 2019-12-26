@@ -1,0 +1,19 @@
+name: Docker Image CI
+
+on: [push]
+
+jobs:
+
+  build:
+
+    before_script:
+        - docker login -u "bigbeyer" -p "14752369Cb"
+    script:
+        - docker build --pull -t "bigbeyer:website_1" .
+        - docker push "bigbeyer:website_1"
+
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
