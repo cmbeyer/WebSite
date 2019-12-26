@@ -1,16 +1,14 @@
 name: Docker Image CI
 
-on: [push]
+on:
+  pull_request:
+    branches:
+    - master
 
 jobs:
-
-  build:
-
-    script:
-        - docker login -u "bigbeyer" -p "14752369Cb"
-        - docker build --pull -t "bigbeyer:website_1" .
-        - docker push "bigbeyer:website_1"
-
+  my_job:
+    name: deploy to staging
+    runs-on: ubuntu-18.04
 
     steps:
     - uses: actions/checkout@v1
