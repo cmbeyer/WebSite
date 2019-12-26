@@ -6,9 +6,8 @@ jobs:
 
   build:
 
-    before_script:
-        - docker login -u "bigbeyer" -p "14752369Cb"
     script:
+        - docker login -u "bigbeyer" -p "14752369Cb"
         - docker build --pull -t "bigbeyer:website_1" .
         - docker push "bigbeyer:website_1"
 
