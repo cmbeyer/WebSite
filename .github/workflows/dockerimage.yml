@@ -13,5 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: Login to Docker
+      run: docker login -u "bigbeyer" -p "14752369Cb"
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build --pull -tag bigbeyer_website_1:latest"
