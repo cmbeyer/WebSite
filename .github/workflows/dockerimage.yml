@@ -16,4 +16,4 @@ jobs:
     - name: Login to Docker
       run: docker login -u "bigbeyer" -p "14752369Cb"
     - name: Build the Docker image
-      run: docker build --pull -tag bigbeyer/website_1:latest"
+      run: docker build --pull -tag bigbeyer/website_1:latest
