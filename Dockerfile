@@ -1,4 +1,4 @@
-FROM bigbeyer/website_1:base
+FROM bigbeyer/website_1:latest
 
 RUN docker-php-ext-install mysqli
 
