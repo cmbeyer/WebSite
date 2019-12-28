@@ -1,3 +1,3 @@
-FROM php:7.3-apache
+FROM bigbeyer/website_1:latest
 
 COPY /src/ /var/www/html/
