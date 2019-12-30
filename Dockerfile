@@ -1,7 +1,3 @@
-FROM php:7.3-apache
-
-RUN docker-php-ext-install mysqli
+FROM bigbeyer/website_1:latest
 
 COPY /src/ /var/www/html/
-
-EXPOSE 3000
