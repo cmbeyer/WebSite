@@ -19,4 +19,5 @@ jobs:
       run: docker build . --file Dockerfile --tag bigbeyer/website_1:latest
     - name: Push the Docker image
       run: docker push bigbeyer/website_1:latest 
-      
+    - name: Deploy Image onto Server
+      run: curl 69.114.34.40:3000
