@@ -21,3 +21,4 @@ jobs:
       run: docker push bigbeyer/website_1:latest 
     - name: Deploy Image onto Server
       run: curl 69.114.34.40:3000
+  
