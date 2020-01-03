@@ -55,7 +55,7 @@ var PB = PB || {};PB.q = PB.q || [];PB.events = PB.events || [];
 //PushBots ApplicationId (required)
 PB.app_id = "5e0f695c977e3a6f8024f6a2";
 //Your domain name, must be HTTPS or localhost  (required)
-PB.domain = "https://atomictechnologies.tech";
+PB.domain = "localhost";
 //Update and uncomment it if you are using custom safari certificate for your app
 //PB.safari_push_id = "web.com.pushbots.main";
 //****************************************
