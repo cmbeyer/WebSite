@@ -32,7 +32,7 @@ echo $directory;
         if ($opendirectory = opendir($directory)){
             while (($file = readdir($opendirectory)) !== false) {
                 if (strpos($file, '.jpeg') ==! false) {
-                    include(pagestoread.php);
+                    include('pagestoread.php');
                 }
             }
             closedir($opendirectory);
