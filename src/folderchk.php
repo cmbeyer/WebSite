@@ -1,8 +1,13 @@
 <?php
-$dir    = '/var/www/html/Media';
-$files1 = scandir($dir);
-$files2 = scandir($dir, 1);
+$directory = "/var/www/html/Media/Web Programming books/Books for Certs";
 
-print_r($files1);
-
+// Open a directory, and read its contents
+if (is_dir($directory)){
+    if ($opendirectory = opendir($directory)){
+        while (($file = readdir($opendirectory)) !== false){
+            echo "filename:" . $file . "<br>";
+        }
+        closedir($opendirectory);
+    }
+}
 ?>
