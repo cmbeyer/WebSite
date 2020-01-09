@@ -31,7 +31,7 @@ echo $directory;
     if (is_dir($directory)){
         if ($opendirectory = opendir($directory)){
             while (($file = readdir($opendirectory)) !== false) {
-                    echo '<div style="background-image:url('.$file.');"></div>>';
+                    echo '<div style="background-image:url('.$file.');"></div>';
             }
             closedir($opendirectory);
         }
@@ -42,7 +42,7 @@ echo $directory;
 
 <script type="text/javascript">
     $(window).ready(function() {
-        $('#magazine').turn({
+        $('#book').turn({
             display: 'double',
             acceleration: true,
             gradients: !$.isTouch,
@@ -59,9 +59,9 @@ echo $directory;
     $(window).bind('keydown', function(e){
 
         if (e.keyCode==37)
-            $('#magazine').turn('previous');
+            $('#book').turn('previous');
         else if (e.keyCode==39)
-            $('#magazine').turn('next');
+            $('#book').turn('next');
 
     });
 </script>
