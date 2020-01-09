@@ -32,6 +32,7 @@ echo $directory;
         if ($opendirectory = opendir($directory)){
             while (($file = readdir($opendirectory)) !== false) {
                     echo '<div style="background-image:url('.$directory.'/'.$file.');"></div>';
+                    echo '<>'.$directory.'/'.$file;
             }
             closedir($opendirectory);
         }
