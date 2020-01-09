@@ -32,8 +32,7 @@ echo $directory;
         if ($opendirectory = opendir($directory)){
             while (($file = readdir($opendirectory)) !== false) {
                 if (strpos($file, '.jpeg') ==! false) {
-                    echo '<div style="background-image:url('.$directory.'/'.$file.');"></div>';
-                    echo '<br>' . $directory . '/' . $file;
+                    include(pagestoread.php);
                 }
             }
             closedir($opendirectory);
