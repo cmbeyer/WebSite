@@ -10,8 +10,8 @@ echo $_POST["book"];
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <meta name="viewport" content="width = 1050, user-scalable = no" />
-<script type="text/javascript" src="Script/turnjs/extras/jquery.min.1.7.js"></script>
-<script type="text/javascript" src="Script/turnjs/extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="Script/turnjs4/extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="Script/turnjs4/extras/modernizr.2.5.3.min.js"></script>
 </head>
 <body>
 
