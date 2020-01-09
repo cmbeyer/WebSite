@@ -8,7 +8,7 @@ if (is_dir($directory)){
     if ($opendirectory = opendir($directory)){
         while (($file = readdir($opendirectory)) !== false) {
             if (strpos($file, '.') === false) {
-                echo '<button type="submit" class="button" name=book" value="'.$file.'">';
+                echo '<input type="submit" name=book" value="'.$file.'">';
                 echo "filename:" . $file . "<br>";
             }
         }
