@@ -32,8 +32,8 @@ echo $directory;
         if ($opendirectory = opendir($directory)){
             while (($file = readdir($opendirectory)) !== false) {
                 if (strpos($file, '.') === false) {
-                    echo '<div style="background-image:url(' . $directory . '/' . $file . ');"></div>';
-                    echo '<>' . $directory . '/' . $file;
+                    echo '<div style="background-image:url('.$directory.'/'.$file.');"></div>';
+                    echo '<br>' . $directory . '/' . $file;
                 }
             }
             closedir($opendirectory);
