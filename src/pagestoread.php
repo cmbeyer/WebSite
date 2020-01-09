@@ -1,2 +1,2 @@
-<div style="background-image:url(<?php$directory.'/'.$file?>);"></div>
+<div style="background-image:url(<?php echo($directory.'/'.$file);?>);"></div>
 
