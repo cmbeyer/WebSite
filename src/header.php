@@ -1,4 +1,7 @@
 <html>
+    <?php 
+    setcookie('cross-site-cookie', 'name', ['samesite' => 'None', 'secure' => true]);
+    ?>
 <meta name="google-signin-client_id" content="754876204432-p5lef84ku4uqqeftv5m3649h7u029qfb.apps.googleusercontent.com">
 <head>
     <title>Welcome Home</title>
