@@ -29,6 +29,7 @@ echo $directory;
                 if (strpos($file, '.jpeg') ==! false) {
                     include('pagestoread.php');
                 }
+
             }
             closedir($opendirectory);
         }
