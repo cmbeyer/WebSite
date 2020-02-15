@@ -28,6 +28,7 @@ echo $directory;
             while (($file = readdir($opendirectory)) !== false) {
                 if (strpos($file, '.jpeg') ==! false) {
                     include('pagestoread.php');
+                    echo 'here';
                 }
 
             }
