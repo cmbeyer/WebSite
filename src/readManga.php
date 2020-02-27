@@ -1,6 +1,5 @@
 <?php include 'header.php'; ?>
 
-<body>
 <div class="se-pre-con">
     <div class="progress-text">Reading 0/0 pages</div>
 </div> <!-- loading spinner -->
@@ -19,9 +18,9 @@
         </div>
 
         <div id="internal" class="option" style="display:none">
-            <button id="readNow" comic_title="whizzkids_united.cbz">
-                <img src='./comics/whizzkids_united_thumb.jpg' class='imgUrl'/>
-                <br>Whizzkids United vs HIV
+            <button id="readNow" comic_title="Dragon Ball Super/Vol 1/Dragon Ball Super v01.cbr">
+                <img src='http://69.114.34.40/Media/Manga/Dragon Ball Super/Vol 1/cover.jpg' class='imgUrl'/>
+                <br>Dragon Ball Super
             </button>
 
             <button id="readNow" comic_title="zack_and_max.cbz">
@@ -42,12 +41,7 @@
     <!-- output comics images here -->
     <div id="output"></div>
 
-    <br><br>
-    Afif Zafri &copy; 2017 - <span id='currYear'></span>
 </center>
-
-<!-- fork me on github ribbon -->
-<a href="https://github.com/afzafri/Web-Comic-Reader"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 
 <!-- load all scripts -->
 <script src="Script/assets/js/jquery-3.2.0.min.js"></script>
