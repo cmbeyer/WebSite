@@ -42,7 +42,7 @@ echo $directory;
     if (is_dir($directory)){ //Adjust this code to use scandir instead of opendir.  Scandir can sort by name, opendir cannot.
         $bookarray = scandir($directory,0);
                 foreach($bookarray as $pageIMG) {
-                    echo '<img>' . $directory2 . '/' . $pageIMG . '</img>';
+                    echo '<div style=\"background-image:url(' . $directory2 . '/' . $pageIMG . ');\"</div>';
                 }
     }
     ?>
