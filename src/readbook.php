@@ -34,15 +34,16 @@ echo $directory;
 
 <div id="flipbook">
     <div class="hard"> Turn.js </div>
-    <div class="hard"></div>
     <?php
+    $counter=1;
     $directory = "/var/www/html/Media/Web Programming books/Books for Certs/".$_POST["book"];
     $directory2="http://69.114.34.40/Media/Web Programming books/Books for Certs/".$_POST["book"];
     // Open a directory, and read its contents
     if (is_dir($directory)){ //Adjust this code to use scandir instead of opendir.  Scandir can sort by name, opendir cannot.
         $bookarray = scandir($directory,0);
                 foreach($bookarray as $pageIMG) {
-                    echo("<div style=\"background-image:url(" . $directory2 . "/" . $pageIMG . ");\"</div>");
+                    echo("<div style=\"background-image:url('" . $directory2 . "/" . $pageIMG . "');\">".$counter."</div>");
+                    $counter=$counter+1;
                 }
     }
     ?>
