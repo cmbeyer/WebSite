@@ -38,19 +38,12 @@ echo $directory;
     <?php
     $directory = "/var/www/html/Media/Web Programming books/Books for Certs/".$_POST["book"];
     $directory2="http://69.114.34.40/Media/Web Programming books/Books for Certs/".$_POST["book"];
-    echo $directory;
     // Open a directory, and read its contents
-    if (is_dir($directory)){
-        if ($opendirectory = opendir($directory)){
-            while (($file = readdir($opendirectory)) !== false) {
-                if (strpos($file, '.jpeg') ==! false) {
-                    //include('pagestoread.php');
-                    echo "<div>".$directory2."/".$file;
+    if (is_dir($directory)){ //Adjust this code to use scandir instead of opendir.  Scandir can sort by name, opendir cannot.
+        $bookarray = scandir($directory,0);
+                foreach($bookarray as $pageIMG) {
+                    echo '<div>' . $directory2 . '/' . $pageIMG . '</div>';
                 }
-
-            }
-            closedir($opendirectory);
-        }
     }
     ?>
     <div class="hard"></div>
