@@ -2,7 +2,7 @@
 
 This website I have designed uses the capability of Github, to merge branches from a dev branch to the master branch.
 
- ### Below are the steps of the work flow from development to production:
+ ### Below are the steps of the work flow from development to production:   
 
 1. Using any PHP IDE that supports GIT, in this case I am using PHPSTORM, take from the dev branch and make changes that you would like. 
 2. Post the commit from the dev branch into the repo using a commit and push to the dev branch.
