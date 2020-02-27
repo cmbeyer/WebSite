@@ -18,7 +18,7 @@ echo $_POST["book"];
 <!--<div class="flipbook-viewport">
 	<div class="container">
 		<div class="flipbook">
-			
+		-->
    <?php
     $directory = "/var/www/html/Media/Web Programming books/Books for Certs/".$_POST["book"];
 echo $directory;
@@ -27,8 +27,8 @@ echo $directory;
         if ($opendirectory = opendir($directory)){
             while (($file = readdir($opendirectory)) !== false) {
                 if (strpos($file, '.jpeg') ==! false) {
-                    include('pagestoread.php');
-                    echo 'here';
+                    //include('pagestoread.php');
+                    echo $file;
                 }
 
             }
@@ -36,7 +36,9 @@ echo $directory;
         }
     }
     ?>
-		</div>
+
+
+	<!--	</div>
 	</div>
 </div>--->
 
