@@ -18,8 +18,8 @@
         </div>
 
         <div id="internal" class="option" style="display:none">
-            <button id="readNow"  comic_title="Dragon Ball Super v01.cbr">
-                <img src='http://69.114.34.40/Media/Manga/Dragon Ball Super/Vol 1/cover.jpg' class='imgUrl'/>
+            <button id="readNow"  comic_title="Dragon_Ball_Super_v01.cbr">
+                <img src='http://69.114.34.40/Media/Manga/Dragon_Ball_Super/Vol_1/cover.jpg' class='imgUrl'/>
                 <br>Dragon Ball Super
             </button>
 
