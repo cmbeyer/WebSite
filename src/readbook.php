@@ -45,17 +45,17 @@ echo $directory;
 <div id="flipbook">
     <div class="hard"> Turn.js </div>
     <div class="hard"></div>
-    <div> <img src="/Media/Web Programming books/Books for Certs/aws certified advanced networking official study guide/page_1.jpeg"> </img> </div>
+    <div>Page 1 </div>
     <div> Page 2 </div>
     <div> Page 3 </div>
     <div> Page 4 </div>
     <div class="hard"></div>
     <div class="hard"></div>
 </div>
+<img src="<?php echo $directory."page_1.jpeg";?>"> </img>
 
 
-
-    <script type="text/javascript">
+<script type="text/javascript">
         $("#flipbook").turn({
             width: 400,
             height: 300,
