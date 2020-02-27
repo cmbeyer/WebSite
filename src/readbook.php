@@ -15,11 +15,11 @@ echo $_POST["book"];
 </head>
 <body>
 
-<div class="flipbook-viewport">
+<!--<div class="flipbook-viewport">
 	<div class="container">
 		<div class="flipbook">
 			
-    <?php
+   <?php
     $directory = "/var/www/html/Media/Web Programming books/Books for Certs/".$_POST["book"];
 echo $directory;
     // Open a directory, and read its contents
@@ -38,39 +38,27 @@ echo $directory;
     ?>
 		</div>
 	</div>
+</div>--->
+
+<div id="flipbook">
+    <div class="hard"> Turn.js </div>
+    <div class="hard"></div>
+    <div> Page 1 </div>
+    <div> Page 2 </div>
+    <div> Page 3 </div>
+    <div> Page 4 </div>
+    <div class="hard"></div>
+    <div class="hard"></div>
 </div>
 
 
-<script type="text/javascript">
 
-function loadApp() {
-
-	// Create the flipbook
-
-	$('.flipbook').turn({
-			// Width
-
-			width:922,
-			
-			// Height
-
-			height:600,
-
-			// Elevation
-
-			elevation: 50,
-			
-			// Enable gradients
-
-			gradients: true,
-			
-			// Auto center this flipbook
-
-			autoCenter: true
-
-	});
-}
-
+    <script type="text/javascript">
+        $("#flipbook").turn({
+            width: 400,
+            height: 300,
+            autoCenter: true
+        });
 </script>
 
 </body>
