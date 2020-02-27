@@ -1,6 +1,5 @@
-<?php
-echo $_POST["book"];
-?>
+<?php include 'header.php'; ?>
+
 
 <!doctype html>
 <!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
@@ -64,5 +63,4 @@ echo $directory;
         });
 </script>
 
-</body>
-</html>
+<?php include 'footer.php'; ?>
