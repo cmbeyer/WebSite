@@ -45,7 +45,7 @@ echo $directory;
 <div id="flipbook">
     <div class="hard"> Turn.js </div>
     <div class="hard"></div>
-    <div> Page 1 </div>
+    <div> <img src="/Media/Web Programming books/Books for Certs/aws certified advanced networking official study guide/page_1.jpeg"> </img> </div>
     <div> Page 2 </div>
     <div> Page 3 </div>
     <div> Page 4 </div>
