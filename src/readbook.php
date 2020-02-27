@@ -21,6 +21,7 @@ echo $_POST["book"];
 		-->
    <?php
     $directory = "/var/www/html/Media/Web Programming books/Books for Certs/".$_POST["book"];
+    $directory2="http://69.114.34.40/Media/Web Programming books/Books for Certs/".$_POST["book"];
 echo $directory;
     // Open a directory, and read its contents
     if (is_dir($directory)){
@@ -52,7 +53,7 @@ echo $directory;
     <div class="hard"></div>
     <div class="hard"></div>
 </div>
-<img src="<?php echo $directory."/page_1.jpeg";?>"> </img>
+<img src="<?php echo $directory2."/page_1.jpeg";?>"> </img>
 
 
 <script type="text/javascript">
