@@ -52,7 +52,7 @@ echo $directory;
     <div class="hard"></div>
     <div class="hard"></div>
 </div>
-<img src="<?php echo $directory."page_1.jpeg";?>"> </img>
+<img src="<?php echo $directory."/page_1.jpeg";?>"> </img>
 
 
 <script type="text/javascript">
