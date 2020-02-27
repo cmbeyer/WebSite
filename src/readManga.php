@@ -1,14 +1,4 @@
-<?php
-?>
-<html>
-<head>
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- load all styles css -->
-    <link href="Script/assets/css/styles.css" rel="stylesheet">
-    <link href="Script/assets/css/lightgallery.min.css" rel="stylesheet">
-    <title>Web Based Comic Book Reader</title>
-</head>
+<?php include 'header.php'; ?>
 
 <body>
 <div class="se-pre-con">
@@ -65,5 +55,4 @@
 <script src="Script/assets/js/lightGallery/lightgallery-all.min.js"></script>
 <script src="Script/assets/js/script.js"></script>
 
-</body>
-</html>
+<?php include 'footer.php'; ?>

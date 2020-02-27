@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="CSS/RegisterUser.css">
     <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="CSS/menu.css">
+    <link href="Script/assets/css/styles.css" rel="stylesheet">
+    <link href="Script/assets/css/lightgallery.min.css" rel="stylesheet">
     <!--Test-->
 
 
