@@ -34,10 +34,9 @@ $(document).ready(function(){
 		$(document).on('click', '#readNow', function() {
 			// get the comic file name
 			var comictitle = $(this).attr('comic_title');
-			var locationComic = $(this).attr('location_Comic');
 			var blob = null;
 			var xhr = new XMLHttpRequest();
-			xhr.open("GET", "http://69.114.34.40/Media/Manga/"+locationComic+"/"+comictitle); // make sure to put all the comics inside "comics" directory in the root directory
+			xhr.open("GET", "http://69.114.34.40/Media/Manga/Dragon Ball Super/Vol 1/"+comictitle); // make sure to put all the comics inside "comics" directory in the root directory
 			xhr.responseType = "blob";
 			xhr.onload = function()
 			{
