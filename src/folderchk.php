@@ -1,3 +1,4 @@
+<?php include 'header.php'; ?>
 <form action="readbook.php" method="POST">
 
 <?php
@@ -17,4 +18,4 @@ if (is_dir($directory)){
 }
 ?>
 </form>
-
+<?php include 'footer.php'; ?>
