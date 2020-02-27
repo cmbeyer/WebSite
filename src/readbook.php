@@ -55,8 +55,8 @@ echo $directory;
 
 <script type="text/javascript">
         $("#flipbook").turn({
-            width: 400,
-            height: 300,
+            width: 800,
+            height: 600,
             autoCenter: true
         });
 </script>
