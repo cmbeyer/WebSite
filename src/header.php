@@ -120,7 +120,7 @@ session_start();
 
 
             <li>
-                <a href="folderchk.php">
+                <a href="">
                     <i class="fa fa-envelope-o fa-lg"></i>
                     <span class="nav-text">Contact</span>
                 </a>
@@ -229,9 +229,9 @@ margin-left: 56px;top:3px;">
             </li>
 
             <li class="darkerli">
-                <a href="http://startific.com">
+                <a href="folderchk.php>
                     <i class="fa fa-align-left fa-lg"></i>
-                    <span class="nav-text">Magazines
+                    <span class="nav-text">Books and Magazines
 </span>
                 </a>
             </li>
