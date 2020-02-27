@@ -229,7 +229,7 @@ margin-left: 56px;top:3px;">
             </li>
 
             <li class="darkerli">
-                <a href="folderchk.php>
+                <a href="folderchk.php">
                     <i class="fa fa-align-left fa-lg"></i>
                     <span class="nav-text">Books and Magazines
 </span>
