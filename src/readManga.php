@@ -21,9 +21,10 @@
 
         // Open a directory, and read its contents
         if (is_dir($directory)){
-        while (($volume = readdir($directory)) !== false)
-            {
+            $mangaScan = scandir($directory,0);
+            foreach($mangaScan as $volume) {
                 echo $volume."||";
+                //$counter=$counter+1;
             }
         }
         ?>
