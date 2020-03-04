@@ -21,7 +21,7 @@
 
         // Open a directory, and read its contents
         if (is_dir($directory)){
-        while (($volume = readdir($directory)) !== false) {
+        while (($volume = readdir($directory)) !== false)
             {
                 echo $volume."||";
             }
