@@ -7,8 +7,8 @@
 <center>
     <fieldset>
         <legend>
-            <button class="tab-button active" id="tab" tab="upload">Choose files from you computer</button>
-            <button class="tab-button" id="tab" tab="internal">Open file stored in the server</button>
+            <button style= "height:auto;margin:auto;width:auto;" class="tab-button active" id="tab" tab="upload">Choose files from you computer</button>
+            <button style= "height:auto;margin:auto;width:auto;" class="tab-button" id="tab" tab="internal">Open file stored in the server</button>
         </legend>
         <br>
 
