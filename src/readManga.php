@@ -7,8 +7,8 @@
 <center>
     <fieldset>
         <legend>
-            <button style= "height:auto;margin:auto;width:auto;" class="tab-button active" id="tab" tab="upload">Choose files from you computer</button>
-            <button style= "height:auto;margin:auto;width:auto;" class="tab-button" id="tab" tab="internal">Open file stored in the server</button>
+            <!--<button style= "height:auto;margin:auto;width:auto;" class="tab-button active" id="tab" tab="upload">Choose files from you computer</button>  ALLOWS FOR USERS TO UPLOAD THEIR OWN COMIC TO BE VIEWED ON THE WEB-->
+            <button style= "height:auto;margin:auto;width:auto;" class="tab-button active" id="tab" tab="internal">Open file stored in the server</button>
         </legend>
         <br>
 
