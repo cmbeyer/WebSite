@@ -40,17 +40,6 @@
                 }
             }
             ?>
-
-
-            <button id="readNow" comic_title="zack_and_max.cbz">
-                <img src='./comics/zack_and_max_thumb.jpg' class='imgUrl'/>
-                <br>The Adventures of Zack &amp; Maxx
-            </button>
-
-            <button id="readNow" comic_title="comic_strip.cbz">
-                <img src='./comics/comic_strip_thumb.jpg' class='imgUrl'/>
-                <br>Alien Comic Strip
-            </button>
         </div>
         <br>
     </fieldset>
