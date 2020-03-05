@@ -18,11 +18,6 @@
         </div>
 
         <div id="internal" class="option" style="display:none">
-                <button id="readNow"  manga="<?php echo $_POST['manga']?>" volume="Vol_1" comic_title="Dragon_Ball_Super_v01.cbr">
-                    <img src='http://69.114.34.40/Media/Manga/Dragon_Ball_Super/Vol_1/cover.jpg' class='imgUrl'/>
-                    <br>Dragon Ball Super
-                </button>
-
             <?php
             $directory="/var/www/html/Media/Manga/".$_POST["manga"];
 
