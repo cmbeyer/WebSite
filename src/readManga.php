@@ -36,7 +36,8 @@
                     $VolumeScan=scandir($directory2,0);
                     foreach($VolumeScan as $mangaName) {
                         if ((strpos($mangaName, '.cbr') || strpos($mangaName, '.cbz'))  ==! false) {
-                            include(mangaBody.php);
+
+                            include 'mangaBody.php';
                         }
 
                     }
