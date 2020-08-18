@@ -1,10 +1,10 @@
 <?php
 
 // Create connection
-$con=mysqli_connect("localhost","bigbeyer","14752369Cb","Betting_Users");
+$conn = new mysqli("localhost","bigbeyer","14752369Cb","Betting_Users");
 
 // Check connection
-if (mysqli_connect_errno())
+if ($conn->connect_error)
 {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
@@ -13,7 +13,7 @@ if (mysqli_connect_errno())
 $sql = "SELECT * FROM Profile";
 
 // Check if there are results
-if ($result = mysqli_query($con, $sql))
+if ($result = mysqli_query($conn, $sql))
 {
     // If so, then create a results array and a temporary one
     // to hold the data
@@ -33,5 +33,5 @@ if ($result = mysqli_query($con, $sql))
 }
 
 // Close connections
-mysqli_close($con);
+mysqli_close($conn);
 ?>
