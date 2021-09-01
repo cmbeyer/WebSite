@@ -113,18 +113,19 @@ html, body {
 
     padding: 0px;
     margin: 0px;
-    /* overflow: hidden;
+    background:url('/images/backgroundMain.jpg');
+    overflow: hidden;
 
-
-       width: 100vw;
-       height: 100vh;
-       overflow: hidden;
-       font-size: 12px;
-       background-image: linear-gradient(to right bottom, #a9347e, #4b32a7);
-       font-family: 'Open Sans', sans-serif;
-       letter-spacing: 0.2px;
-       color: #fff;
-       */
+    /*
+           width: 100vw;
+           height: 100vh;
+           overflow: hidden;
+           font-size: 12px;
+           background-image: linear-gradient(to right bottom, #a9347e, #4b32a7);
+           font-family: 'Open Sans', sans-serif;
+           letter-spacing: 0.2px;
+           color: #fff;
+           */
 }
 
 ul {
