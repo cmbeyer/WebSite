@@ -3,7 +3,7 @@ body
     margin:0px;
     padding:0px;
     font-family: "Open Sans", arial;
-    background:url('src/images/backgroundMain.jpg');
+    background:url('/images/backgroundMain.jpg');
     color:#fff;
     font-weight:300;
 
